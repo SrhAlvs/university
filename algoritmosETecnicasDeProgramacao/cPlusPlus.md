@@ -12,4 +12,4 @@
 * `int` = integer (inteiro), cria uma variável inteira
 
 ## Funções
-* `main() {}` = função principal do programa, alguns chamam de "função mãe"
+* `main() {}` = função principal do programa, alguns chamam de "função mã

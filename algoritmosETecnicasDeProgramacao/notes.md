@@ -23,5 +23,6 @@
 ### Plataformas para estudar
 * [Neps Academy](https://neps.academy/br/login): fazer atividades
 * [beecrowd](https://judge.beecrowd.com/pt/login): fazer atividades
+* [Curso em Vídeo](https://www.youtube.com/c/CursoemV%C3%ADdeo): estudar pelo YouTube
 * Torre de Hanoi: raciocínio lógico
 * [code.org](www.code.org): estruturas de repetição

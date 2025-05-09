@@ -5,6 +5,7 @@
 * X-IV-MMXXV: IIIII IIIII IIIII III
 * XVII-IV-MMXXV: IIIII IIIII IIIII IIIII IIIII II
 * XXIV-IV-MMXXV: II
+* VIII-V-MMXXV: não contei :/
 
 ## Anotações iniciais
 * Linguagem escolhida: C++.

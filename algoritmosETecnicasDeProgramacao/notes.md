@@ -6,6 +6,7 @@
 * XVII-IV-MMXXV: IIIII IIIII IIIII IIIII IIIII II
 * XXIV-IV-MMXXV: II
 * VIII-V-MMXXV: não contei :/
+* IX-V-MMXXV: I
 
 ## Anotações iniciais
 * Linguagem escolhida: C++.
@@ -27,3 +28,5 @@
 * [Curso em Vídeo](https://www.youtube.com/c/CursoemV%C3%ADdeo): estudar pelo YouTube
 * Torre de Hanoi: raciocínio lógico
 * [code.org](www.code.org): estruturas de repetição
+
+**Como enviar as atividades:** Enviar para >> Pasta compactada.

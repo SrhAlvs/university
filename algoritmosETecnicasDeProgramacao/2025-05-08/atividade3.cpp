@@ -4,13 +4,13 @@ using namespace std;
 #define PRECOBALINHA 10
 #define LUCROSUCO 0.2
 #define LUCROBALINHA 0.5
-main() {
-	/*A empresa “Compre mais” decidiu fazer um programa para auxiliar nos calculos das compras dos seus principais produtos no dia: suco de jabuticaba e balinha de gengibre. 
+int main() {
+	/*A empresa COMPRE MAIS decidiu fazer um programa para auxiliar nos calculos das compras dos seus principais produtos no dia: suco de jabuticaba e balinha de gengibre. 
 	Faca um programa que leia: a quantidade de sucos de jabuticaba vendidos a quantidade de balinhas de gengibre vendidas. 
 	Apos isso, calcule e escreva o valor total de lucro na venda desses	dois produtos. 
 	A empresa tem uma margem de lucro de 20% nos sucos e 50% nas balinhas.
-	• Valor do suco de jabuticaba:5 reais
-	• Valor da balinha de gengibre: 10 reais*/
+	1. Valor do suco de jabuticaba:5 reais
+	2. Valor da balinha de gengibre: 10 reais*/
 	int sucoJabuticaba, balinhaGengibre;
 	float lucroTotalSuco, lucroTotalBalinha, lucroTotal;
 	

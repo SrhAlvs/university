@@ -2,7 +2,7 @@
 #include <string>
 #define ANOPASSADO 2024
 using namespace std;
-main () {
+int main () {
 	/*ENUNCIADO: Faca um programa que leia: a idade e o nome de uma pessoa.
 	Escreva o ano que ela nasceu. 
 	Suponha que ela ainda nao fez aniversario esse ano.*/

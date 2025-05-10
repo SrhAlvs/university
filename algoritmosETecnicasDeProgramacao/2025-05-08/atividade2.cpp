@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
-main() {
-	//Faca um programa em que o usuario informe (leia) tres números: A, B e C. O programa deve apresentar (escreva): A+B, A*C e B-C.
+int main() {
+	//Faca um programa em que o usuario informe (leia) tres nï¿½meros: A, B e C. O programa deve apresentar (escreva): A+B, A*C e B-C.
 	float A, B, C, somaAB, subtracaoBC, multiplicacaoAC;
 	
 	cout<<"Digite o primeiro valor: "<<endl; //mostrar na tela

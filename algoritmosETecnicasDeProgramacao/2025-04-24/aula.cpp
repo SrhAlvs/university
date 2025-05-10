@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 #define ANOATUAL 2025
-main(){
+int main(){
 	int idade, xy_; //'xy_' vai ser usado pra calcular o ano de nascimento do usuario
 	char moeda = 'R'; //'R' de real
 	string nome = "Jose";

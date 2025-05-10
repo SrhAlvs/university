@@ -1,7 +1,7 @@
 #include <iostream>
 #define PRECO 3.99
 using namespace std;
-main(){
+int main(){
 	//ENUNCIADO: faca um programa em C++ que leia o nome do produto e a quantidade de produtos comprados. No final, imprima o valor da compra. Todo produto, neste mercado, custa 3.99.
 	string nomeProduto;
 	int quantidade;

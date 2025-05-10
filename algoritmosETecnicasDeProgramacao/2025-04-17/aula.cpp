@@ -7,7 +7,7 @@
 		ou seja: incluir biblioteca de comandos para trabalharmos com fluxos de entradas e saidas
 	*/
 using namespace std; //usando esse comando não precisa escrever o 'std' toda vez
-main() { //funcao principal
+int main() { //funcao principal
 	/* FORMA COM 'std', OU SEJA, SEM O COMANDO DA LINHA 09
 		std::cout<<"Hello world!"<<std::endl; 
 			'standart'

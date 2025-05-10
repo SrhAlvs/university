@@ -2,7 +2,7 @@
 #include <string>
 #define ANOATUAL 2025
 using namespace std;
-main () {
+int main () {
 	/*ENUNCIADO: Faca um programa que leia: idade e o nome de uma pessoa.
 	Escreva qual ano que ela nasceu.
 	Suponha que ela ja fez aniversario esse ano.*/

@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-main() {
+int main() {
 	//program que faz a media aritmetica de 3 numeros
 	float num1, num2, num3, mediaAritmetica;
 	

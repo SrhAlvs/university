@@ -37,5 +37,6 @@ Pense nele como um comando de substituição de texto que o pré-processador do 
 * `main(){}` = função principal do programa, alguns chamam de "função mãe"
 * `if(condição){bloco de código}` = "se *isso* acontecer, faça *isso*"
         * não precisa colocar o código entre {} se a linha a ser executada for apenas uma (isso também acontece no Java)
+        * pode colocar `if` dentro de `if`
     * `else if(+condição){bloco de código}` = "caso a *condição* não aconteça, faça *isso* com base nessa *outra condição*"
     * `else{bloco de código}` = "caso nenhuma das *condições* aconteçam, faça *isso*"

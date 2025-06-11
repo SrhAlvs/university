@@ -25,13 +25,30 @@ Pense nele como um comando de substituição de texto que o pré-processador do 
 * `string` = cria uma variável que armazena um conjunto de caracteres, que devem estar entre aspas duplas, exemplo: `string coisa: "sdkfh"`
 * `bool` = cria uma variável booleana que recebe apenas 0 e 1
 
-## Operações em numéricos
+## Operações 
+### Aritméticas
 * `+` = soma
 * `-` = subtração
 * `/` = divisão
 * `*` = multiplicação
 * `int x/y` =  divisor inteiro entre os números, exemplo: int 7/3 ==
 * `%` = resto da divisão entre dois números inteiros, também é chamado de mod
+
+### Lógicas
+* `==` = igual, compara se uma variável é igual a outra 
+* `!=` = diferente
+* `<` = menor que
+* `>` = maior que
+* `<=` = menor ou igual a
+* `>=` = maior ou igual a
+* `&&` = quando a *condição 1* **E** a *condiçãoo 2* forem satisfeitas...
+* `||` = quando a *condição 1* **OU** a *condiçãoo 2* forem satisfeitas...
+* `!` = "troca" o valor da variável booleana. Ex.: 
+    ```c++
+    bool answer = true;
+    answer = !answer;
+    cout>>answer; //false
+    ```
 
 ## Funções
 * `main(){}` = função principal do programa, alguns chamam de "função mãe"

@@ -4,6 +4,9 @@
 * **i** = input (entrada)
 * **o** = output (saída)
 * **stream** = fluxo, no caso, vamos trabalhar com fluxos de entradas e saídas
+
+## `include <locale.h>`
+
 ## `#define ALGUMACOISA 0000`
 Pense nele como um comando de substituição de texto que o pré-processador do C++ realiza antes da compilação do seu código. Em essência, #define cria uma macro. Uma macro é uma regra que diz ao pré-processador para substituir todas as ocorrências de um determinado identificador (o nome da macro) por um valor específico (o corpo da macro) antes que o compilador traduza o código para linguagem de máquina.
 * **define** = "cria" uma palavra-chave/comando
@@ -41,8 +44,8 @@ Pense nele como um comando de substituição de texto que o pré-processador do 
 * `>` = maior que
 * `<=` = menor ou igual a
 * `>=` = maior ou igual a
-* `&&` = quando a *condição 1* **E** a *condiçãoo 2* forem satisfeitas...
-* `||` = quando a *condição 1* **OU** a *condiçãoo 2* forem satisfeitas...
+* `&&` = quando a *condição 1* **E** a *condiçãoo 2* forem satisfeitas... **&& tem prioridade antes de ||**
+* `||` = quando a *condição 1* **OU** a *condiçãoo 2* forem satisfeitas... **&& tem prioridade antes de ||**
 * `!` = "troca" o valor da variável booleana. Ex.: 
     ```c++
     bool answer = true;

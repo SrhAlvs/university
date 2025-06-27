@@ -1,7 +1,12 @@
 # IFG (Câmpus Luziânia) - Bacharelado em Sistemas da Informação
 # Lógica Computacional
 
-## Lógica proposicional
+## Anotações
+### Avaliações
+- Prova: 18/07/2025
+- Trabalho: 25/07/2025
+
+## Lógica proposicional (tabelas verdade)
 ### Proposições
 Chama-se proposição todo conjunto de palavras ou símbolos que exprimem um pensamento de sentido completo. As proposições transmitem pensamentos e afirmam fatos ou exprimem juízos que formamos a respeito de determinados entes. 
 * Ex.: "A Lua é um satélite da Terra."
@@ -60,7 +65,7 @@ p = O céu é azul
     |  F  |  V  |   F   |
     |  F  |  F  |   V   | 
     ```
-* `⊕` = **ou exclusivo**, 
+* `⊕` = **ou exclusivo**, é verdadeiro se apenas uma das proposições for verdadeira, mas não ambas.
     ```
     Tabela Verdade
     |  P  |  Q  | P ⊕ Q |
@@ -69,7 +74,7 @@ p = O céu é azul
     |  F  |  V  |    V   |
     |  F  |  F  |    F   |
     ```
-* `¬(∧)` ou `↑` = **Não E**,
+* `¬(∧)` ou `↑` = **Não E**, é verdadeiro se pelo menos uma das proposições for falsa. É a negação do "E".
     ```
     Tabela Verdade
     |  P  |  Q  | P ↑ Q |
@@ -78,7 +83,7 @@ p = O céu é azul
     |  F  |  V  |   V   |
     |  F  |  F  |   V   |
     ```
-* `¬(∨)` ou `↓` = **Não Ou**, 
+* `¬(∨)` ou `↓` = **Não Ou**, é verdadeiro somente se ambas as proposições forem falsas. É a negação do "OU".
     ```
     Tabela Verdade
     |  P  |  Q  | P ↓ Q |
@@ -91,3 +96,100 @@ p = O céu é azul
 #### Precedência
     ()     >>    ¬      >>    ∧ ou ↑    >>     ∨ ou ↓     >>      →        >>              ↔ ou ⊕
 parênteses >>  negação  >>  E ou Não E  >>  OU ou Não OU  >>  condicional  >>  bicondicional ou Ou Exclusivo
+
+### Como montar a tabela verdade
+#### Ex.: ¬(p⊕q)∧¬(¬p⊕q)
+- PRIMEIRO PASSO:
+```
+|  p  |  q  |
+|  F  |  F  |
+|  F  |  V  |
+|  V  |  F  |
+|  V  |  V  |
+```
+- SEGUNDO PASSO:
+```
+|  p  |  q  | p⊕q | 
+|  F  |  F  |  F   |
+|  F  |  V  |  V   |
+|  V  |  F  |  V   |
+|  V  |  V  |  F   |
+```
+- TERCEIRO PASSO:
+```
+|  p  |  q  | p⊕q | ¬(p⊕q) |
+|  F  |  F  |  F   |    V    |
+|  F  |  V  |  V   |    F    |
+|  V  |  F  |  V   |    F    |
+|  V  |  V  |  F   |    V    |
+```
+- QUARTO PASSO:
+```
+|  p  |  q  | p⊕q | ¬(p⊕q) |  ¬p |
+|  F  |  F  |  F   |    V    |  V  |
+|  F  |  V  |  V   |    F    |  V  |
+|  V  |  F  |  V   |    F    |  F  |
+|  V  |  V  |  F   |    V    |  F  |
+```
+- QUINTO PASSO:
+```
+|  p  |  q  | p⊕q | ¬(p⊕q) |  ¬p | ¬p⊕q |
+|  F  |  F  |  F   |    V    |  V  |   V  |
+|  F  |  V  |  V   |    F    |  V  |   F  |
+|  V  |  F  |  V   |    F    |  F  |   F  |
+|  V  |  V  |  F   |    V    |  F  |   V  |
+```
+- SEXTO PASSO:
+```
+|  p  |  q  | p⊕q | ¬(p⊕q) |  ¬p | ¬p⊕q | ¬(¬p⊕q) |
+|  F  |  F  |  F   |    V    |  V  |   V  |     F    |
+|  F  |  V  |  V   |    F    |  V  |   F  |     V    |
+|  V  |  F  |  V   |    F    |  F  |   F  |     V    |
+|  V  |  V  |  F   |    V    |  F  |   V  |     F    |
+```
+- SÉTIMO PASSO:
+```
+|  p  |  q  | p⊕q | ¬(p⊕q) |  ¬p | ¬p⊕q | ¬(¬p⊕q) | ¬(p⊕q)∧¬(¬p⊕q) |
+|  F  |  F  |  F   |    V    |  V  |   V  |     F    |         F        |
+|  F  |  V  |  V   |    F    |  V  |   F  |     V    |         F        |
+|  V  |  F  |  V   |    F    |  F  |   F  |     V    |         F        |
+|  V  |  V  |  F   |    V    |  F  |   V  |     F    |         F        |
+```
+
+#### Ex.: p∧(q∨r)
+- PRIMEIRO PASSO:
+```
+|  p  |  q  |  r  |
+|  F  |  F  |  F  |
+|  F  |  F  |  V  |
+|  F  |  V  |  F  |
+|  F  |  V  |  V  |
+|  V  |  F  |  F  |
+|  V  |  F  |  V  |
+|  V  |  V  |  F  |
+|  V  |  V  |  V  |
+```
+- SEGUNDO PASSO:
+```
+|  p  |  q  |  r  | q∨r |
+|  F  |  F  |  F  |  F  |
+|  F  |  F  |  V  |  V  |
+|  F  |  V  |  F  |  V  |
+|  F  |  V  |  V  |  V  |
+|  V  |  F  |  F  |  F  |
+|  V  |  F  |  V  |  V  |
+|  V  |  V  |  F  |  V  |
+|  V  |  V  |  V  |  V  |
+```
+- TERCEIRO PASSO:
+```
+|  p  |  q  |  r  | q∨r | p∧(q∨r) |
+|  F  |  F  |  F  |  F  |    F    |
+|  F  |  F  |  V  |  V  |    F    |
+|  F  |  V  |  F  |  V  |    F    |
+|  F  |  V  |  V  |  V  |    F    |
+|  V  |  F  |  F  |  F  |    F    |
+|  V  |  F  |  V  |  V  |    V    |
+|  V  |  V  |  F  |  V  |    V    |
+|  V  |  V  |  V  |  V  |    V    |
+```

@@ -12,7 +12,12 @@
 * Linguagem escolhida: C++.
 * **Horário de atendimento:** de 17:30 às 19:00 nas quintas e sextas.
 * Pesquisar:Filme\jogoDaImitacao
-**Prova dia 29/05/2025**
+
+### Dias de prova
+- 29/05/2025
+- 10/07/2025
+- 31/07/2025
+
 **Reposição do dia 05/06/20255 antecipada para o dia 16/05/2025**
 
 ### Editores e compiladores

@@ -4,11 +4,11 @@ using namespace std;
 int main() {
 	setlocale(LC_ALL, "Portuguese");
 	/*Alun@: Sarah Alves Soares do Nascimento.
-	Questão 9:
-	Faça um programa em C++ que leia 10 números inteiros. O programa deve:
-	• Identificar o maior número entre os 5 primeiros valores lidos,
-	• Identificar o menor número entre os 5 últimos valores lidos,
-	• Imprimir ambos os valores.*/
+	Questï¿½o 9:
+	Faï¿½a um programa em C++ que leia 10 nï¿½meros inteiros. O programa deve:
+	ï¿½ Identificar o maior nï¿½mero entre os 5 primeiros valores lidos,
+	ï¿½ Identificar o menor nï¿½mero entre os 5 ï¿½ltimos valores lidos,
+	ï¿½ Imprimir ambos os valores.*/
 	int num, maior5pri, menor5ult;
 	for(int i=1; i<=10; i++) {
 		cout<<"Insira o valor: ";
@@ -29,6 +29,6 @@ int main() {
 			}
 		}
 	}
-	cout<<"Maior número entre os 5 primeiros: "<<maior5pri<<endl;
-	cout<<"Menor número entre os 5 últimos: "<<menor5ult<<endl;
+	cout<<"Maior nï¿½mero entre os 5 primeiros: "<<maior5pri<<endl;
+	cout<<"Menor nï¿½mero entre os 5 ï¿½ltimos: "<<menor5ult<<endl;
 }

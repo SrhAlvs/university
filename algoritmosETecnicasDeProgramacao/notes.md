@@ -18,7 +18,7 @@
 - 10/07/2025
 - 31/07/2025
 
-**Reposição do dia 05/06/20255 antecipada para o dia 16/05/2025**
+**Reposição do dia 05/06/2025 antecipada para o dia 16/05/2025**
 
 ### Editores e compiladores
 * **Editor** de texto capenga sugerido: Replit.

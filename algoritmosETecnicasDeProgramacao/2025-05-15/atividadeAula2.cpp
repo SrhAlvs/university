@@ -2,9 +2,9 @@
 #define BONUS 1000
 using namespace std;
 int main(){
-	/*Em uma loja trabalham vendedores, telefonistas e gerentes, estes ultimos recebem 1000 reais de bonifica��o por m�s. 
-	Fa�a um	programa que leia o cargo do funcion�rio e o ganho semanal e calcule o valor a receber no final do m�s. 
-	Suponha que um m�s tem 4 semanas.*/
+	/*Em uma loja trabalham vendedores, telefonistas e gerentes, estes ultimos recebem 1000 reais de bonificação por mês. 
+	Faça um	programa que leia o cargo do funcionario e o ganho semanal e calcule o valor a receber no final do mês. 
+	Suponha que um mês tem 4 semanas.*/
 	string cargo;
 	float ganhoSemanal, salario;
 	

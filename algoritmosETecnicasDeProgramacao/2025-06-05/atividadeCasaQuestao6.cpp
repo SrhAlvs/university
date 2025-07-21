@@ -9,7 +9,7 @@ int main () {
 	Fiquei em duvida se era para imprimir todos os numeros inteiros 
 	entre o primeiro e o segundo e o primeiro e o terceiro, ou se
 	era para imprimir o "tamanho" do intervalo. Como a segunda opcao 
-	não precisaria usar o 'for', fiz de acordo com a primeira!*/
+	nao precisaria usar o 'for', fiz de acordo com a primeira!*/
 	int num1, num2, num3;
 	cout<<"Insira os 3 valores: ";
 	cin>>num1>>num2>>num3;

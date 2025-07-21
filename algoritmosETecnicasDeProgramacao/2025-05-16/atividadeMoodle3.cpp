@@ -2,7 +2,7 @@
 using namespace std;
 int main () {
 	/*Alun@: Sarah Alves Soares do Nascimento.
-	Lista de exercÌcios 1: quest„o 3
+	Lista de exerc√≠cios 1: quest√£o 3
 	Faca um programa em C++ que leia um numero x e imprima se ele e par ou impar.*/
 	int x, pOuI;
 	

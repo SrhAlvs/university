@@ -3,9 +3,9 @@
 using namespace std;
 int main() {
 	setlocale(LC_ALL, "Portuguese");
-	/*Faça um programa que leia, para um grupo de amigos, a idade
+	/*FaÃ§a um programa que leia, para um grupo de amigos, a idade
 	da pessoa e o nome dela. Imprima uma mensagem para as
-	pessoas maiores de idade. Calcule a média de idade deste
+	pessoas maiores de idade. Calcule a mÃ©dia de idade deste
 	grupo de amigos. Seu programa deve parar quando uma idade
 	menor que 13 for digitada.*/
 	int idade, quant = 0;
@@ -24,5 +24,5 @@ int main() {
 		cout<<"Digite a idade: ";
 		cin>>idade;
 	}
-	cout<<"Média das idades: "<<soma/quant;
+	cout<<"MÃ©dia das idades: "<<soma/quant;
 }

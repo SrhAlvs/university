@@ -2,7 +2,7 @@
 using namespace std;
 int main () {
 	/*Alun@: Sarah Alves Soares do Nascimento.
-	Lista de exercÌcios 1: quest„o 7
+	Lista de exerc√≠cios 1: quest√£o 7
 	Faca um programa em C++ que leia duas datas e imprima a maior.
 	O que seria uma data maior? Fica aqui meu questionamento kkkkk*/
 	int dia1, dia2, dia, mes1, mes2, mes, ano1, ano2, ano;

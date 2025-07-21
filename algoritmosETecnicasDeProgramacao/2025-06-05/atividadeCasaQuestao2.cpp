@@ -6,16 +6,16 @@ int main () {
 	Faca um programa em C++ que leia o horario de entrada (horas, minutos e 
 	segundos) e saida (horas, minutos e segundos) de uma lista de competidores 
 	e imprima para cada um deles o tempo (em minutos e segundos) gasto no percurso.
-	• O programa deve ler o numero total de competidores
-	• Para cada competidor, ler:
-		– Nome (ou numero de identificacao)
-		– Horario de entrada (no formato HH MM SS)
-		– Horario de saida (no formato HH MM SS)
-	• Calcular a diferenca entre os horarios de saida e entrada
-	• Exibir para cada competidor:
-		– Nome/Identificacao
-		– Tempo total no formato MM:SS
-	• Considerar que nenhum competidor levara mais de 24 horas 
+	- O programa deve ler o numero total de competidores
+	- Para cada competidor, ler:
+		- Nome (ou numero de identificacao)
+		- Horario de entrada (no formato HH MM SS)
+		- Horario de saida (no formato HH MM SS)
+	- Calcular a diferenca entre os horarios de saida e entrada
+	- Exibir para cada competidor:
+		- Nome/Identificacao
+		- Tempo total no formato MM:SS
+	- Considerar que nenhum competidor levara mais de 24 horas 
 	para completar o percurso*/
 	int e, identifyNumber, startH, startM, startS, endH, endM, endS, totalTime, totalM, totalS;
 	cout<<"Insira o numero total de competidores: ";

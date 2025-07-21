@@ -12,10 +12,10 @@ int main () {
 	D = 4.0 <= Media < 6.0
 	E = Media < 4.0 
 	O programa deve:
-	• Calcular a media aritmetica simples entre N1 e N2
-	• Classificar o aluno conforme a tabela acima
-	• Exibir o nome do aluno, sua media e o conceito obtido
-	• Utilizar estruturas condicionais para determinar o conceito*/
+	- Calcular a media aritmetica simples entre N1 e N2
+	- Classificar o aluno conforme a tabela acima
+	- Exibir o nome do aluno, sua media e o conceito obtido
+	- Utilizar estruturas condicionais para determinar o conceito*/
 	float n1, n2, media;
 	string name;
 	char conceito;

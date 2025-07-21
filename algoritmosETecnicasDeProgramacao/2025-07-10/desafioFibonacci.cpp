@@ -4,9 +4,9 @@ using namespace std;
 int main () {
 	setlocale (LC_ALL, "Portuguese");
 	int num, soma, aux1=1, aux2=1; 
-	//curiosidade: no CodeBlocks, não entraria no `while`, porque "soma" não tem valor nenhum
-	//aí lá precisaria colocar "soma=0" em algum local do código
-	cout<<"Digite o número (maior que 5): ";
+	//curiosidade: no CodeBlocks, nÃ£o entraria no `while`, porque "soma" nÃ£o tem valor nenhum
+	//aÃ­ lÃ¡ precisaria colocar "soma=0" em algum local do cÃ³digo
+	cout<<"Digite o nÃºmero (maior que 5): ";
 	cin>>num;
 	if (num >= 5){
 		cout<<aux1<<" ";
@@ -17,6 +17,6 @@ int main () {
 			aux2 = soma;
 		}
 	} else {
-		cout<<"Número inválido."<<endl;
+		cout<<"NÃºmero invÃ¡lido."<<endl;
 	}
 }

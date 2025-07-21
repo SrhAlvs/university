@@ -2,7 +2,7 @@
 using namespace std;
 int main () {
 	/*Alun@: Sarah Alves Soares do Nascimento.
-	Lista de exercÌcios 1: quest„o 4
+	Lista de exerc√≠cios 1: quest√£o 4
 	Faca um programa em C++ que leia o nome e a idade de tres irmaos e imprima o nome do irmao do meio.*/
 	string nome1, nome2, nome3, idade1, idade2, idade3;
 	

@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-	/* Lista de execÌcios 1: quest„o 1
+	/* Lista de exec√≠cios 1: quest√£o 1
 	Faca um programa em C++ que leia 3 numeros: A, B e C. E imprima:
 	(a) Se eles fazem um triangulo: soma de dois lados quaisquer e maior que o outro lado.
 	(b) Se o triangulo e equilatero.*/

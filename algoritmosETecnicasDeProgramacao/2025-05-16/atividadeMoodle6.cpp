@@ -2,7 +2,7 @@
 using namespace std;
 int main () {
 	/*Alun@: Sarah Alves Soares do Nascimento.
-	Lista de exercÌcios 1: quest„o 6
+	Lista de exerc√≠cios 1: quest√£o 6
 	Faca um programa em C++ que leia as notas de 5 alunos e imprima a maior nota.
 	(a) imprima tambem a segunda maior nota.*/
 	float nota1, nota2, nota3, nota4, nota5, maior, segMaior;

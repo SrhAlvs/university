@@ -4,14 +4,14 @@ using namespace std;
 int main() {
 	setlocale (LC_ALL, "Portuguese");
 	/*Alun@: Sarah Alves Soares do Nascimento.
-	Questão 7:
-	Faça um programa em C++ que leia 15 números inteiros e verifique 
-	se o primeiro numero lido é múltiplo do último número lido. 
+	QuestÃ£o 7:
+	FaÃ§a um programa em C++ que leia 15 nÃºmeros inteiros e verifique 
+	se o primeiro numero lido Ã© mÃºltiplo do Ãºltimo nÃºmero lido. 
 	Ao final, o programa deve imprimir uma mensagem indicando 
-	o resultado da verificação.*/
+	o resultado da verificaÃ§Ã£o.*/
 	int num, primeiro, ultimo, multiplo;
 	for (int i=1; i<=15; i++) {
-		cout<<"Digite o "<<i<<"º número: ";
+		cout<<"Digite o "<<i<<"Âº nÃºmero: ";
 		cin>>num;
 		if (i==1) {
 			primeiro = num;
@@ -22,8 +22,8 @@ int main() {
 	}
 	multiplo = primeiro%ultimo;
 	if (multiplo == 0) {
-		cout<<"O primeiro número é múltiplo do último número."<<endl;
+		cout<<"O primeiro nÃºmero Ã© mÃºltiplo do Ãºltimo nÃºmero."<<endl;
 	} else {
-		cout<<"O primeiro número não é múltiplo do último número."<<endl;
+		cout << "O primeiro nÃºmero nÃ£o Ã© mÃºltiplo do Ãºltimo nÃºmero." << endl;
 	}
 }

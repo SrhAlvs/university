@@ -2,10 +2,10 @@
 using namespace std;
 int main () {
 	/*Alun@: Sarah Alves Soares do Nascimento.
-	Lista de exercÌcios 1: quest„o 8
-	Supondo que este ano, a soma das idades de Aang e Katara e igual a idade de Kyoshi. 
+	Lista de exerc√≠cios 1: quest√£o 8
+	Supondo que este ano, a soma das idades de Aang e Katara e igual a idade de Kyoshi.
 	Faca um programa que leia a idade de tres pessoas
-	(em ordem aleatoria, ou seja, nao sabemos quem e quem) 
+	(em ordem aleatoria, ou seja, nao sabemos quem e quem)
 	e imprima se eles podem ser Aang, Katara e Kyoshi.*/
 	int idade1, idade2, idade3, sum12, sum23, sum13;
 	cout<<"Insira a primeira idade: ";

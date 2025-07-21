@@ -2,7 +2,7 @@
 using namespace std;
 int main () {
 	/*Alun@: Sarah Alves Soares do Nascimento.
-	Lista de exercÌcios 1: quest„o 5
+	Lista de exerc√≠cios 1: quest√£o 5
 	Um professor aplica um prova de recuperacao substitutiva na turma, para alunos que tiram
 	menos que 6 na prova regular. Faca um programa em C++ que leia o nome e a nota da
 	prova regular de um aluno. Caso necessario, leia tambem a nota da prova substitutiva e

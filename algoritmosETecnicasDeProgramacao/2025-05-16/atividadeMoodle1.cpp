@@ -2,7 +2,7 @@
 using namespace std;
 int main () {
 	/*Alun@: Sarah Alves Soares do Nascimento.
-	Lista de exercÌcios 1: quest„o 1
+	Lista de exerc√≠cios 1: quest√£o 1
 	Faca um programa em C++ que leia 3 numeros: A, B e C. E imprima:
 	(a) Se eles fazem um triangulo: soma de dois lados quaisquer eh maior que o outro lado.
 	(b) Se o triaangulo eh equilatero.*/

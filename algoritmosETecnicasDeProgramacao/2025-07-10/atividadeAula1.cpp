@@ -3,19 +3,19 @@
 using namespace std;
 int main () {
 	setlocale (LC_ALL, "Portuguese");
-	/*O caixa de uma empresea realiza operações de débitos e créditos em dinheiro.
-	Débitos (tipo 1) incluem saídas de caixa, como troco.
-	Créditos (tipo 2) incluem entradas de caixa, como pagamentos.
+	/*O caixa de uma empresea realiza operaÃ§Ãµes de dÃ©bitos e crÃ©ditos em dinheiro.
+	DÃ©bitos (tipo 1) incluem saÃ­das de caixa, como troco.
+	CrÃ©ditos (tipo 2) incluem entradas de caixa, como pagamentos.
 	Implemente um programa que:
 	1. Leia o valor inicial do caixa;
-	2. Receba uma sequência de operações
+	2. Receba uma sequÃªncia de operaÃ§Ãµes
 	*/
 	int operacao;
 	float valorInicial, valorFinal, valor;
 	cout<<"Valor inicial do caixa: ";
 	cin>>valorInicial;
 	valorFinal = valorInicial;
-	cout<<"\nOperacao (1 para débito, 2 para crédito): ";
+	cout<<"\nOperacao (1 para dÃ©bito, 2 para crÃ©dito): ";
 	cin>>operacao;
 	while (operacao != -1) {
 		cout<<"Valor: ";
@@ -24,7 +24,7 @@ int main () {
 			valorFinal -= valor;
 		if (operacao == 2)
 			valorFinal += valor;
-		cout<<"\nOperacao (1 para débito, 2 para crédito): ";
+		cout<<"\nOperacao (1 para dÃ©bito, 2 para crÃ©dito): ";
 		cin>>operacao;
 	}
 	cout<<"Valor final do caixa: "<<valorFinal<<endl;

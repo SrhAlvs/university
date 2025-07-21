@@ -3,8 +3,8 @@
 using namespace std;
 int main () {
 	setlocale(LC_ALL, "Portuguese");
-	/*Faça um program que leia a nota de 5 alunos e imprima quantas notas 
-	foram maiores que a média de notas.*/
+	/*FaÃ§a um program que leia a nota de 5 alunos e imprima quantas notas 
+	foram maiores que a mÃ©dia de notas.*/
 	float nota[4], media, soma=0, alunos=0;
 	for (int i=0; i<5; i++) {
 		cout<<"Digite a nota: ";
@@ -12,8 +12,8 @@ int main () {
 		soma += nota[i];
 	}
 	media = soma/5;
-	cout<<"\nMédia: "<<media<<endl;
-	cout<<"Notas maiores que a média de notas: ";
+	cout<<"\nMÃ©dia: "<<media<<endl;
+	cout<<"Notas maiores que a mÃ©dia de notas: ";
 	for (int i=0; i<5; i++) {
 		if (nota[i] > media) {
 			alunos++;

@@ -2,7 +2,7 @@
 using namespace std;
 int main () {
 	/*Alun@: Sarah Alves Soares do Nascimento.
-	Lista de exercÌcios 1: quest„o 2
+	Lista de exerc√≠cios 1: quest√£o 2
 	Seja a equacao do segundo grau: ax^2 + bx + c = 0 
 	Faca um programa em C++ que leia os valores dos coeficientes de uma equacao do segundo grau (a, b e c) e imprima:
 	(a) Se essa equacao e do segundo grau.

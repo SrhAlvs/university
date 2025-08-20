@@ -1,7 +1,9 @@
 #include <iostream>
+#include <cmath>
 #include <locale.h>
 using namespace std;
-int main() {
+int main()
+{
 	setlocale(LC_ALL, "Portuguese");
 	/*Alun@: Sarah Alves Soares do Nascimento
 	Questão 04:
@@ -14,4 +16,19 @@ int main() {
 				  = raiz(9 + 16 + 0)
 				  = raiz(25)
 				  = 5*/
+	float A[5], B[5], soma = 0, distancia;
+
+	cout << "Insira os valores do vetor A: ";
+	for (int i = 0; i < 5; i++)
+		cin >> A[i];
+
+	cout << "Insira os valores do vetor B: ";
+	for (int i = 0; i < 5; i++)
+	{
+		cin >> B[i];
+		soma += pow((A[i] - B[i]), 2); //`pow` é potência
+	}
+
+	distancia = sqrt(soma); //`sqrt` é raiz quadrada
+	cout << "A distância entre os vetores A e B é: " << soma;
 }

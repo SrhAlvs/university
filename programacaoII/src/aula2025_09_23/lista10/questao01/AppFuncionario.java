@@ -1,7 +1,7 @@
 package aula2025_09_23.lista10.questao01;
 
 public class AppFuncionario {
-    static void main() {
+    public static void main() {
         java.text.DecimalFormat duasCasasDecimais = new java.text.DecimalFormat("0.00");
 
         Funcionario f1 = new Funcionario("Daniel", "Hartman", 1500.32);

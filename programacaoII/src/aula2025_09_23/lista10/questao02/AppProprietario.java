@@ -1,7 +1,7 @@
 package aula2025_09_23.lista10.questao02;
 
 public class AppProprietario {
-    public static void main() {
+    static void main() {
         Proprietario p1 = new Proprietario("Ronaldo", "12345678901", "00000000");
         p1.setDataNascimento(31, 6, 1970);
         p1.exibirAtributos();

@@ -3,8 +3,8 @@ package aula2025_09_30.lista11.questao02;
 public class Gato extends Felino {
     private String raca;
 
-    public Gato(double peso, Integer idade, String alimento, double velocidade, String raca) {
-        super(peso, idade, alimento, velocidade);
+    public Gato(String nomeAnimal, double peso, Integer idade, String alimento, double velocidade, String raca) {
+        super(nomeAnimal, peso, idade, alimento, velocidade);
         setRaca(raca);
     }
 

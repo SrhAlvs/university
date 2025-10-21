@@ -14,7 +14,7 @@ public class Ingresso {
     }
 
     public double getValor() { return valor; }
-    public void setValor(double valor) { this.valor = (valor > 0) ? 0 : valor; }
+    public void setValor(double valor) { this.valor = (valor < 0) ? 0 : valor; }
 
     public LocalDate getData() { return data; }
     public void setData(LocalDate data) { this.data = data; }

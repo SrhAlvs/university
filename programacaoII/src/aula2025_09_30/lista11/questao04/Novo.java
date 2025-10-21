@@ -9,10 +9,10 @@ public class Novo extends Imovel {
     }
 
     public double getAdicionalPreco() { return adicionalPreco; }
-    public void setAdicionalPreco(double adicionalPreco) { this.adicionalPreco = (adicionalPreco > 0) ? 0 : adicionalPreco; }
+    public void setAdicionalPreco(double adicionalPreco) { this.adicionalPreco = (adicionalPreco < 0) ? 0 : adicionalPreco; }
 
     public void imprimirPreco() {
         System.out.println("Preço inicial: " + getPreco());
-        System.out.println("Preço com adicional: " + getAdicionalPreco());
+        System.out.println("Preço com adicional: " + (getPreco() + getAdicionalPreco()));
     }
 }

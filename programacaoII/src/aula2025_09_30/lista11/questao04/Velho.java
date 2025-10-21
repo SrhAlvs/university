@@ -5,13 +5,14 @@ public class Velho extends Imovel {
 
     public Velho(String endereco, double preco, double descontoPreco) {
         super(endereco, preco);
+        setDescontoPreco(descontoPreco);
     }
 
     public double getDescontoPreco() { return descontoPreco; }
-    public void setDescontoPreco(double descontoPreco) { this.descontoPreco = (descontoPreco > 0) ? 0 : descontoPreco; }
+    public void setDescontoPreco(double descontoPreco) { this.descontoPreco = (descontoPreco < 0) ? 0 : descontoPreco; }
 
     public void imprimirPreco() {
         System.out.println("Preço inicial: " + getPreco());
-        System.out.println("Preço com desconto: " + getDescontoPreco());
+        System.out.println("Preço com desconto: " + (getPreco() - getDescontoPreco()));
     }
 }

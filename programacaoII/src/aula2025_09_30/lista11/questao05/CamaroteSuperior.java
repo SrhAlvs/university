@@ -17,12 +17,13 @@ public class CamaroteSuperior extends VIP {
 
 
     public double getAdicionalValorCamaroteSuperior() { return adicionalValorCamaroteSuperior; }
-    public void setAdicionalValorCamaroteSuperior(double adicionalValorCamaroteSuperior) { this.adicionalValorCamaroteSuperior = (adicionalValorCamaroteSuperior > 0) ? 0 : adicionalValorCamaroteSuperior; }
-
+    public void setAdicionalValorCamaroteSuperior(double adicionalValorCamaroteSuperior) { this.adicionalValorCamaroteSuperior = (adicionalValorCamaroteSuperior < 0) ? 0 : adicionalValorCamaroteSuperior; }
 
     public void imprimirLocalizacao() {
-        double valorVIPCamaroteSuperior = getValor() + getAdicionalValorCamaroteSuperior();
         System.out.println("Localização (camarote superior): " + getLocalizacao());
-        System.out.println("Valor do ingresso VIP (camarote superior: " + valorVIPCamaroteSuperior);
+    }
+
+    public void imprimirValorAdicionalCSuperior() {
+        System.out.println("Valor do ingresso VIP (camarote superior): " + (getValor() + getAdicionalValor() + getAdicionalValorCamaroteSuperior()));
     }
 }

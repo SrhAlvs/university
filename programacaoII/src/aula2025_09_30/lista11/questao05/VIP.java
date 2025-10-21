@@ -11,10 +11,9 @@ public class VIP extends Ingresso {
     }
 
     public double getAdicionalValor() { return adicionalValor; }
-    public void setAdicionalValor(double adicionalValor) { this.adicionalValor = (adicionalValor > 0) ? 0 : adicionalValor; }
+    public void setAdicionalValor(double adicionalValor) { this.adicionalValor = (adicionalValor < 0) ? 0 : adicionalValor; }
 
     public void imprimirValorVIP() {
-        double valorVIP = getValor() + getAdicionalValor();
-        System.out.println("Valor do ingresso VIP: " + valorVIP);
+        System.out.println("Valor do ingresso VIP: " + (getValor() + getAdicionalValor()));
     }
 }

@@ -6,19 +6,19 @@ public class Pesado extends Drone{
     }
 
     public double consumo(double pesoCargaAtual, double distanciaKm) {
-        double fatorPeso = 1 + (pesoCargaAtual / pesoMaximo);
-        double bateriaConsumida = (distanciaKm / autonomiaKm) * 100 * fatorPeso;
+        double fatorPeso = 1 + (pesoCargaAtual / getPesoMaximo());
+        double bateriaConsumida = (distanciaKm / getAutonomiaKm()) * 100 * fatorPeso;
         return bateriaConsumida;
     }
 
     public void exibirConsumo(double pesoCargaAtual, double distanciaKm) {
-        int bateriaRestante = (int) (bateriaAtual - consumo(pesoCargaAtual, distanciaKm)); //bateria é um número inteiro, já que não há 17,6% de bateria
+        int bateriaRestante = (int) (getBateriaAtual() - consumo(pesoCargaAtual, distanciaKm)); //bateria é um número inteiro, já que não há 17,6% de bateria
         exibirTempoEstimado(distanciaKm);
         if (bateriaRestante > 0) {
-            bateriaAtual = bateriaRestante;
+            setBateriaAtual(bateriaRestante);
             System.out.println("Bateria restante: " + bateriaRestante);
         } else {
-            System.out.println("Bateria restante: " + bateriaAtual);
+            System.out.println("Bateria restante: " + getBateriaAtual());
         }
     }
 }

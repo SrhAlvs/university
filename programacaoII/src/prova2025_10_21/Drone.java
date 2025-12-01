@@ -3,10 +3,10 @@ package prova2025_10_21;
 public class Drone {
     private int codigo;
     private String modelo;
-    protected double pesoMaximo;
-    protected double autonomiaKm;
+    private double pesoMaximo;
+    private double autonomiaKm;
     private double velocidadeMedia;
-    protected int bateriaAtual;
+    private int bateriaAtual;
 
     public Drone(int codigo, int bateriaAtual, String modelo, double pesoMaximo, double autonomiaKm, double velocidadeMedia) {
         setCodigo(codigo);

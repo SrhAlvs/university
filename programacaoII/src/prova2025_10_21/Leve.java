@@ -17,13 +17,13 @@ public class Leve extends Drone{
     }
 
     public void exibirConsumo(double distanciaKm) {
-        int bateriaRestante = (int) (bateriaAtual - consumo(distanciaKm)); //bateria é um número inteiro, já que não há 17,6% de bateria
+        int bateriaRestante = (int) (getBateriaAtual() - consumo(distanciaKm)); //bateria é um número inteiro, já que não há 17,6% de bateria
         exibirTempoEstimado(distanciaKm);
         if (bateriaRestante > 0) {
-            bateriaAtual = bateriaRestante;
+            setBateriaAtual(bateriaRestante);
             System.out.println("Bateria restante: " + bateriaRestante);
         } else {
-            System.out.println("Bateria restante: " + bateriaAtual);
+            System.out.println("Bateria restante: " + getBateriaAtual());
         }
     }
 }

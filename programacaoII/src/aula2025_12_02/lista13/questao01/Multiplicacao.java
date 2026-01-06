@@ -1,0 +1,9 @@
+package aula2025_12_02.lista13.questao01;
+
+public class Multiplicacao implements OperacaoAritmetica {
+    @Override
+    public int calcular(int a, int b) { return a * b; }
+
+    @Override
+    public double calcular(double a, double b) { return a * b; }
+}

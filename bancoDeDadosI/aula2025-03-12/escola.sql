@@ -16,4 +16,4 @@ INSERT INTO professores (nome, disciplina, idade) VALUES
     ("Joui Jouki", "Momentos de Aura II", 33),
     ("Ratatouille Jones da Silva", "Engenharia de Alimentos", 2);
     
-SELECT * FROM professores ORDER BY idade ASC;
+SELECT * FROM professores ORDER BY idade ASC

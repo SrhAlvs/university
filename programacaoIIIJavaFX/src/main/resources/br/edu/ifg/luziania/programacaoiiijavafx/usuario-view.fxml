@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<VBox spacing="10"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="br.edu.ifg.luziania.programacaoiiijavafx.mvc.UsuarioController">
+  <padding>
+    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+  </padding>
+
+  <GridPane hgap="10" vgap="10">
+
+    <Label text="Nome:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+    <TextField fx:id="txtNome" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+    <Label text="Senha:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+    <PasswordField fx:id="txtSenha" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+    <Label text="Descrição:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+    <TextArea fx:id="txtDescricao" prefRowCount="3"
+              GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+    <Label text="Sexo:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+    <HBox spacing="10" GridPane.rowIndex="3" GridPane.columnIndex="1">
+      <RadioButton fx:id="rbMasculino" text="Masculino"/>
+      <RadioButton fx:id="rbFeminino" text="Feminino"/>
+    </HBox>
+
+    <Label text="Linguagem:" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+    <ComboBox fx:id="comboLinguagem"
+              GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+
+    <CheckBox fx:id="cbTermos" text="Aceito os termos"
+              GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+
+  </GridPane>
+
+  <HBox spacing="10">
+    <Button text="Adicionar" onAction="#adicionar"/>
+    <Button text="Remover" onAction="#remover"/>
+  </HBox>
+
+  <TableView fx:id="tabela">
+
+    <columns>
+      <TableColumn fx:id="colNome" text="Nome"/>
+      <TableColumn fx:id="colSexo" text="Sexo"/>
+      <TableColumn fx:id="colLinguagem" text="Linguagem"/>
+      <TableColumn fx:id="colTermos" text="Termos"/>
+    </columns>
+
+  </TableView>
+
+</VBox>

@@ -1,6 +1,6 @@
-package tratamentoExcecao.lista1.questao10;
+package tratamentoExcecao.lista01.questao10;
 
-import tratamentoExcecao.lista1.questao08.NumeroNegativoException;
+import tratamentoExcecao.lista01.questao08.NumeroNegativoException;
 
 import java.util.Scanner;
 

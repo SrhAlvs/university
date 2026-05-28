@@ -1,4 +1,4 @@
-package tratamentoExcecao.lista1.questao12;
+package tratamentoExcecao.lista01.questao12;
 
 public class ProcessadorTarefas implements AutoCloseable {
      public ProcessadorTarefas() {

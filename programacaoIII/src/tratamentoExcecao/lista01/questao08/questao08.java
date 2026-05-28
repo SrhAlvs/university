@@ -1,4 +1,4 @@
-package tratamentoExcecao.lista1.questao08;
+package tratamentoExcecao.lista01.questao08;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package tratamentoExcecao.lista1;
+package tratamentoExcecao.lista01;
 
 import java.util.Scanner;
 

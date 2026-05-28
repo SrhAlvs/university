@@ -26,14 +26,14 @@ CREATE TABLE emprestimos (
 );
 
 INSERT INTO livro (titulo, autor, isbn, quantidadePaginas) VALUES
-    ("Tormenta", "C. J. Tudor", "978-6555665024", 336),
-    ("As irmãs Blue", "Coco Mellors", "978-6555665024", 400),
-    ("O Corvo", "Edgar Allan Poe", "978-6555665024", 200);
+    ('Tormenta', 'C. J. Tudor', '978-6555665024', 336),
+    ('As irmãs Blue', 'Coco Mellors', '978-6555665024', 400),
+    ('O Corvo', 'Edgar Allan Poe', '978-6555665024', 200);
 
 INSERT INTO usuario (nome, cpf, email) VALUES
-    ("Sal Alves", "000.111.222-33", "sssarahalves@gmail.com"),
-    ("Fê Ventura", "444.555.666-77", "fefeventura@gmail.com"),
-    ("Dadi Cocozinho", "888.999.000-11", "eusoucoco@gmail.com");
+    ('Sal Alves', '000.111.222-33', 'sssarahalves@gmail.com'),
+    ('Fê Ventura', '444.555.666-77', 'fefeventura@gmail.com'),
+    ('Dadi Cocozinho', '888.999.000-11', 'eusoucoco@gmail.com');
 
 -- resgistrando 
 INSERT INTO emprestimos (id_livro, id_usuario, data_emprestimo) VALUES 

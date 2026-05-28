@@ -1,0 +1,33 @@
+USE escola;
+
+CREATE TABLE alunos (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE cursos (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE alunoID (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY
+);
+
+CREATE TABLE disciplinaID (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY
+);
+
+CREATE TABLE alunoNome (
+    nome VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE disciplinaNome (
+    nome VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE alunos_cursos (
+    aluno_id INT REFERENCES alunoID(id) ON DELETE CASCADE,
+    disciplina_id INT REFERENCES disciplinaID(id) ON DELETE CASCADE,
+    PRIMARY KEY (aluno_id, disciplina_id)
+);

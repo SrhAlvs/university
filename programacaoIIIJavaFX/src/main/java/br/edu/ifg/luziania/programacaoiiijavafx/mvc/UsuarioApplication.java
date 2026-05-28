@@ -10,7 +10,7 @@ public class UsuarioApplication extends Application {
     @Override
     public void start(Stage stage) throws Exception {
 
-//        FXMLLoader loader = new FXMLLoader(UsuarioApplication.class.getResource("usuario-view.fxml"));
+        // FXMLLoader loader = new FXMLLoader(UsuarioApplication.class.getResource("usuario-view.fxml"));
         FXMLLoader loader = new FXMLLoader(
                 getClass().getResource("/br/edu/ifg/luziania/p3/usuario-view.fxml")
         );

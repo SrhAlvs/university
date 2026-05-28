@@ -13,4 +13,8 @@ module br.edu.ifg.luziania.programacaoiiijavafx {
 
     opens br.edu.ifg.luziania.programacaoiiijavafx to javafx.fxml;
     exports br.edu.ifg.luziania.programacaoiiijavafx;
+    exports br.edu.ifg.luziania.programacaoiiijavafx.poo;
+    opens br.edu.ifg.luziania.programacaoiiijavafx.poo to javafx.fxml;
+    exports br.edu.ifg.luziania.programacaoiiijavafx.mvc;
+    opens br.edu.ifg.luziania.programacaoiiijavafx.mvc to javafx.fxml;
 }

@@ -24,3 +24,6 @@ SELECT e.titulo, c.titulo FROM estante e JOIN cliente c;
 -- supondo muito suposto que tenho 2 tabelas com atributos de nomes iguais, aí eu posso colocar um "apelido" na tabela pra saber qual atributo que eu tô "puxando"
 
 SELECT * FROM estante;
+
+-- FOREING KEY COM CONSTRAINT
+-- CONSTRAINT FK_pagamento_cpf FOREIGN KEY (cpf) REFERENCES pessoa(cpf)
